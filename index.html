@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="task.css">
+    <title>Document</title>
+</head>
+<body>
+   
+    <header>
+<nav>
+    <ul>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ul>
+</nav>
+    </header>
+    <main>
+        <h1> Task-List </h1>
+        <form id="newContact">
+            <div>
+                <label for="firstname">Nome</label>
+                <input id="firstname" required />
+            </div>
+            <div>
+              <label for="lastname">Cognome</label>
+              <input id="lastname" required />
+            </div>
+            <div>
+              <label for="phone">Telefono</label>
+              <input id="phone" type="tel" required />
+            </div>
+            <div>
+              <label for="email">Email</label>
+              <input id="email" type="email" required />
+            </div>
+            <div>
+              <button>SALVA CONTATTO</button>
+              <button type="reset">SVUOTA CAMPI</button>
+            </div>
+          </form>
+          <section>
+            <div id="saved-contacts">
+              <!-- qui andranno le nostre contact-card -->
+            </div>
+          </section>
+        </main>
+        <script src="agenda.js"></script>
+      </body>
+    </html>
+
+
+
+
+    <script src="task.js"></script>
+</body>
+</html>
