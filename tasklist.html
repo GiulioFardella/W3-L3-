@@ -8,16 +8,19 @@
 </head>
 <body>
     <div class="container">
-        <h1>Lista Spuntabile</h1>
+        <h1>Guitar Task-List</h1>
         <label for="itemInput"></label>
         <input id="itemInput" type="text" placeholder="Name and Surname" />
+        <input id="itemInput" type="email" placeholder="Your email" />
+
         <ul id="checklist">
-            <li>Select your own wood</li>
-            <li> Choose you favourite shape</li>
-            <li> </li>
-            <li></li>
+            <li><input type="checkbox" id="wood"><label for="wood"> Select your own wood</label></li>
+            <li><input type="checkbox" id="shape"><label for="shape"> Choose your favourite shape</label></li>
+            <li><input type="checkbox" id="pickup"><label for="pickup"> Apply your pickups configuration</label></li>
+            <li><input type="checkbox" id="paint"><label for="paint"> Apply the paint you prefer!</label></li>
         </ul>
         
     </div>
 </body>
+<script src="tasklist.js"></script>
 </html>
